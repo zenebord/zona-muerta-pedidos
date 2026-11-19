@@ -3,9 +3,7 @@
 Aquí se piden mejoras y se avisa de errores de **Zona Muerta**: https://zenebord.github.io/zona-muerta/
 
 ## Cómo hacer un pedido
-**Sin cuenta de nada:** llena el formulario → https://docs.google.com/forms/d/e/1FAIpQLSdRsBPYdbM0wTlkUEj18cDoQ4-hX4Q4SnfQsFcgRuMsEWAO8g/viewform
-
-**Con cuenta de GitHub:**
+**Primero lee la [guía rápida](GUIA.md).**
 1. Entra a **Issues** y toca **New issue** (necesitas una cuenta gratis de GitHub).
 2. Elige la plantilla **Pedido** y cuéntanos qué quieres. Las capturas se pegan directo en el cuadro de texto.
 3. Si quieres, ponle una etiqueta con la **sección del juego** de la que habla tu pedido.
