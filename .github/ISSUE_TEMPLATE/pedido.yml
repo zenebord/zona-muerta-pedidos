@@ -9,6 +9,16 @@ body:
       description: Cuéntanos tu idea con tus palabras: qué quieres que cambie o qué falla. Si tienes una captura, pégala aquí.
     validations:
       required: true
+  - type: dropdown
+    id: prioridad
+    attributes:
+      label: ¿Qué tan importante es para ti?
+      options:
+        - "Alta: el juego falla o no se puede jugar bien"
+        - "Media: lo quiero pronto"
+        - "Baja: sería lindo tenerlo algún día"
+    validations:
+      required: true
   - type: textarea
     id: dudas
     attributes:
