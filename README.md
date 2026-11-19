@@ -1,16 +1,20 @@
 # Pedidos de Zona Muerta
 
-Cada pedido de mejora o error del juego es un **issue**.
+Aquí se piden mejoras y se avisa de errores de **Zona Muerta**: https://zenebord.github.io/zona-muerta/
 
-**Cómo se etiqueta**
+## Cómo hacer un pedido
+1. Entra a **Issues** y toca **New issue** (necesitas una cuenta gratis de GitHub).
+2. Elige la plantilla **Pedido** y cuéntanos qué quieres. Las capturas se pegan directo en el cuadro de texto.
+3. Si quieres, ponle una etiqueta con la **sección del juego** de la que habla tu pedido.
+
+## Cómo se etiqueta
 - **Sección del juego** (una o varias): Pelea infinita, Camino a casa, Misiones, Defensa zombie, Defensa zombie ultra,
   Último bastión, Entrenamiento, Campo de pruebas, Tutorial, VR, Menú y configuración. Y las transversales: Armas,
   Sonido y música, Gráficos, Zombies, Controles y celular.
 - **Tipo**: `mejora` o `error`. `duda` si falta confirmar algo con quien lo pidió.
-- **Estado**: abierto sin etiqueta = pendiente; `en curso`; `listo sin publicar` (hecho y commiteado, falta publicar);
-  cerrado = publicado.
+- **Estado**: abierto sin etiqueta de estado = pendiente; `en curso`; `listo sin publicar` (hecho, falta publicar);
+  cerrado = ya está en el juego.
 
-**Cerrar un pedido desde el juego**: en el mensaje del commit de `zenebord/zona-muerta`, escribir la referencia completa,
-por ejemplo `Cierra zenebord/zona-muerta-pedidos#12` (cierra solo cuando el commit llega a `main`).
-
-El repo es **privado** a propósito: acá van los mensajes de quienes piden cosas.
+## Para quien desarrolla
+Un commit de `zenebord/zona-muerta` cierra un pedido con `Cierra zenebord/zona-muerta-pedidos#12` en su mensaje.
+Este repositorio es **público**: no se anotan datos personales de nadie en los pedidos.
