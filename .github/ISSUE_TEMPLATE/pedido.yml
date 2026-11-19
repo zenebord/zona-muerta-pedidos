@@ -1,0 +1,21 @@
+name: Pedido
+description: Una mejora o un error del juego
+title: "[Sección] qué se pide, en pocas palabras"
+body:
+  - type: textarea
+    id: pedido
+    attributes:
+      label: Qué se pide
+      description: El mensaje tal cual llegó, o la idea con tus palabras. Si hay captura, pegala acá.
+    validations:
+      required: true
+  - type: textarea
+    id: dudas
+    attributes:
+      label: Qué falta confirmar
+      description: Dudas que hay que aclarar con quien lo pidió (si hay).
+  - type: input
+    id: version
+    attributes:
+      label: Versión del juego en que se pidió
+      description: La que figura en la web, por ejemplo 20261118-2052-3d1f5e9
